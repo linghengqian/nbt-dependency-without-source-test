@@ -2,7 +2,7 @@
 
 - For https://github.com/apache/shardingsphere/pull/35476 .
 - Execute the following PowerShell 7 command on the `Windows 11` instance with `PowerShell/PowerShell`,
-  `version-fox/vfox`, `git-for-windows/git` installed.
+  `version-fox/vfox`, `git-for-windows/git`, `Microsoft.VisualStudio.2022.Community` installed.
 
 ```shell
 vfox add java
