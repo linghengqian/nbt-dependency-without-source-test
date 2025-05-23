@@ -89,7 +89,7 @@ PS D:\TwinklingLiftWorks\git\public\nbt-dependency-without-source-test> ./mvnw -
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.github.linghengqian.SimpleTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in com.github.linghengqian.SimpleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in com.github.linghengqian.SimpleTest
 [INFO] 
 [INFO] Results:
 [INFO]
@@ -105,14 +105,14 @@ PS D:\TwinklingLiftWorks\git\public\nbt-dependency-without-source-test> ./mvnw -
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for nbt-dependency-without-source-test 1.0-SNAPSHOT:
 [INFO]
-[INFO] nbt-dependency-without-source-test ................. SUCCESS [  0.068 s]
-[INFO] module-without-source .............................. SUCCESS [  0.309 s]
-[INFO] main-module ........................................ FAILURE [  1.489 s]
+[INFO] nbt-dependency-without-source-test ................. SUCCESS [  0.083 s]
+[INFO] module-without-source .............................. SUCCESS [  0.376 s]
+[INFO] main-module ........................................ FAILURE [  1.593 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.240 s (Wall Clock)
-[INFO] Finished at: 2025-05-23T23:12:42+08:00
+[INFO] Total time:  2.489 s (Wall Clock)
+[INFO] Finished at: 2025-05-23T23:15:13+08:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.graalvm.buildtools:native-maven-plugin:0.10.6:test (test-native) on project main-module: Missing jar-file for com.github.linghengqian:module-without-source:jar:1.0-SNAPSHOT:test. Ensure that native-maven-plugin runs in package phase. -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.graalvm.buildtools:native-maven-plugin:0.10.6:test (test-native) on project main-module: Missing jar-file for com.github.linghengqian:module-without-source:jar:1.0-SNAPSHOT:test. Ensure that native-maven-plugin runs in package phase.

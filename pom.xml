@@ -55,12 +55,6 @@
                             <version>0.10.6</version>
                             <extensions>true</extensions>
                             <configuration>
-                                <buildArgs>
-                                    <buildArg>-H:+AddAllCharsets</buildArg>
-                                    <buildArg>-H:+UnlockExperimentalVMOptions</buildArg>
-                                    <buildArg>-H:ThrowMissingRegistrationErrors=</buildArg>
-                                    <buildArg>-H:MissingRegistrationReportingMode=Warn</buildArg>
-                                </buildArgs>
                                 <quickBuild>true</quickBuild>
                             </configuration>
                             <executions>
