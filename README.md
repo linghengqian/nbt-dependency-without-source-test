@@ -1,6 +1,6 @@
 # nbt-dependency-without-source-test
 
-- For https://github.com/apache/shardingsphere/pull/35476 .
+- For https://github.com/apache/shardingsphere/pull/35476 and https://github.com/graalvm/native-build-tools/issues/727 .
 - Execute the following PowerShell 7 command on the `Windows 11` instance with `PowerShell/PowerShell`,
   `version-fox/vfox`, `git-for-windows/git`, `Microsoft.VisualStudio.2022.Community` installed.
 
